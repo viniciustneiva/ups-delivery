@@ -2,7 +2,7 @@ import React, {useLayoutEffect} from 'react';
 import { View, Text } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import CustomerScreen from "../screens/CustomerScreen";
-import OrderScreen from "../screens/OrderScreen";
+import OrdersScreen from "../screens/OrdersScreen";
 import {useNavigation} from "@react-navigation/native";
 import { Icon } from '@rneui/base';
 
@@ -47,7 +47,7 @@ const TabNavigator = () => {
             }
         })}>
             <Tab.Screen name="Customers" component={CustomerScreen}/>
-            <Tab.Screen name="Orders" component={OrderScreen}/>
+            <Tab.Screen name="Orders" component={OrdersScreen}/>
         </Tab.Navigator>
     );
 };
