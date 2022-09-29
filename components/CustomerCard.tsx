@@ -5,6 +5,7 @@ import { useTailwind } from 'tailwind-rn/dist';
 import { useNavigation } from '@react-navigation/native';
 import { CustomerScreenNavigationProp } from "../screens/CustomerScreen"
 import {Card, Icon} from "@rneui/themed";
+import COLOR from "../util/colors";
 
 type Props = {
     userId: string;
@@ -27,15 +28,15 @@ const CustomerCard = ({email, name, userId}: Props) => {
                     <View style={tailwind('flex-row justify-between')}>
                         <View>
                             <Text style={tailwind('text-2xl font-bold')}>{name}</Text>
-                            <Text style={[tailwind('text-sm'), {color: "#59C1CC"}]}>ID: {userId}</Text>
+                            <Text style={[tailwind('text-sm'), {color: COLOR.PRIMARY}]}>ID: {userId}</Text>
                         </View>
                         <View style={tailwind('flex-row items-center justify-end')}>
-                            <Text style={{color: '#59C1CC'}}>{loading ? "loading..." : `${orders.length} x`}</Text>
+                            <Text style={{color: COLOR.PRIMARY}}>{loading ? "loading..." : `${orders.length} x`}</Text>
                             <Icon
                                 style={tailwind("mb-5 ml-auto")}
                                 name="box"
                                 type="entypo"
-                                color="#59C1CC"
+                                color={COLOR.PRIMARY}
                                 size={50}
                             />
                         </View>

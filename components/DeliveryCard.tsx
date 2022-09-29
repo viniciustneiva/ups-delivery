@@ -3,6 +3,7 @@ import React from "react";
 import {useTailwind} from "tailwind-rn";
 import {Card, Divider, Icon} from "@rneui/themed";
 import MapView, {Marker} from "react-native-maps"
+import COLOR from "../util/colors";
 type Props = {
     order: Order;
     fullWidth?: boolean;
@@ -14,7 +15,7 @@ const DeliveryCard = ({order, fullWidth}: Props) => {
         <Card containerStyle={[
             tailwind( `${fullWidth ? "rounded-none m-0" : "rounded-lg" } my-2`),
             {
-                backgroundColor: fullWidth? "#EB6A7C" : "#59C1CC",
+                backgroundColor: fullWidth? COLOR.SECONDARY : COLOR.PRIMARY,
                 padding: 0,
                 paddingTop: 16,
                 shadowColor: "black",

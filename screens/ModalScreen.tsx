@@ -9,6 +9,7 @@ import {NativeStackNavigationProp} from "@react-navigation/native-stack";
 import {RootStackParamList} from "../navigator/RootNavigator";
 import useCustomerOrders from "../hooks/useCustomerOrders";
 import DeliveryCard from "../components/DeliveryCard";
+import COLOR from "../util/colors";
 
 type ModalScreenNavigationProp = CompositeNavigationProp<
     BottomTabNavigationProp<TabStackParamList>,
@@ -32,8 +33,8 @@ const ModalScreen = () => {
             </TouchableOpacity>
 
             <View style={{marginTop: 10}}>
-                <View style={[tailwind('py-5 border-b'), {borderColor: "#59C1CC"}]}>
-                    <Text style={[tailwind('text-center text-xl font-bold'), {color: '#59C1CC'}]}>{name}</Text>
+                <View style={[tailwind('py-5 border-b'), {borderColor: COLOR.PRIMARY}]}>
+                    <Text style={[tailwind('text-center text-xl font-bold'), {color: COLOR.PRIMARY}]}>{name}</Text>
                     <Text style={[tailwind('text-center italic text-sm')]}>deliveries</Text>
                 </View>
             </View>

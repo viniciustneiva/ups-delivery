@@ -7,6 +7,7 @@ import {TabStackParamList} from "../navigator/TabNavigator";
 import {NativeStackNavigationProp} from "@react-navigation/native-stack";
 import {RootStackParamList} from "../navigator/RootNavigator";
 import DeliveryCard from "../components/DeliveryCard";
+import COLOR from "../util/colors";
 
 type OrderScreenRouteProp = RouteProp<RootStackParamList, "Order">;
 
@@ -22,7 +23,7 @@ const OrderScreen = () => {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerTitle: order.trackingItems.customer.name,
-            headerTintColor: "#EB6A7C",
+            headerTintColor: COLOR.SECONDARY,
             headerTitleStyle: {color: "black"},
             headerBackTitle: "Deliveries",
         })

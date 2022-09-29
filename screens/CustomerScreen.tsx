@@ -10,6 +10,7 @@ import { Image, Input } from "@rneui/themed";
 import { useQuery } from "@apollo/client";
 import { GET_CUSTOMERS } from "../graphql/queries";
 import CustomerCard from "../components/CustomerCard";
+import COLOR from "../util/colors";
 
 export type CustomerScreenNavigationProp = CompositeNavigationProp<
     BottomTabNavigationProp<TabStackParamList, 'Customers'>,
@@ -28,7 +29,7 @@ const CustomerScreen = () => {
     },[]);
 
     return (
-        <ScrollView style={{backgroundColor: "#59C1CC"}}>
+        <ScrollView style={{backgroundColor: COLOR.PRIMARY}}>
             <Image
                 source={{uri: "https://links.papareact.com/3jc"}}
                 containerStyle={tailwind("w-full h-64")}

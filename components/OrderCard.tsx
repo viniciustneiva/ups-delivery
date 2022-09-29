@@ -7,6 +7,7 @@ import {BottomTabNavigationProp} from "@react-navigation/bottom-tabs";
 import {TabStackParamList} from "../navigator/TabNavigator";
 import {NativeStackNavigationProp} from "@react-navigation/native-stack";
 import {RootStackParamList} from "../navigator/RootNavigator";
+import COLOR from "../util/colors";
 
 export type OrderScreenNavigationProp = CompositeNavigationProp<
     BottomTabNavigationProp<TabStackParamList, "Orders">,
@@ -27,7 +28,7 @@ const OrderCard = ({item}: Props) => {
                 <View>
                     <Icon
                         name="truck-delivery"
-                        color={"#EB6A7C"}
+                        color={COLOR.SECONDARY}
                         type="material-community"
                     />
                     <Text style={{fontSize: 10}}>
@@ -45,7 +46,7 @@ const OrderCard = ({item}: Props) => {
                 </View>
 
                 <View style={tailwind('flex-row items-center')}>
-                    <Text style={[tailwind('text-sm '), {color: "#EB6A7C"}]}>
+                    <Text style={[tailwind('text-sm '), {color: COLOR.SECONDARY}]}>
                         {item.trackingItems.items.length} x
                     </Text>
                     <Icon

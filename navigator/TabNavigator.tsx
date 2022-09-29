@@ -1,10 +1,11 @@
 import React, {useLayoutEffect} from 'react';
-import { View, Text } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import CustomerScreen from "../screens/CustomerScreen";
 import OrdersScreen from "../screens/OrdersScreen";
 import {useNavigation} from "@react-navigation/native";
 import { Icon } from '@rneui/base';
+import COLOR from "../util/colors";
+
 
 export type TabStackParamList = {
     Customers: undefined;
@@ -24,7 +25,7 @@ const TabNavigator = () => {
 
     return (
         <Tab.Navigator screenOptions={({route}) =>({
-            tabBarActiveTintColor: "#59C1CC",
+            tabBarActiveTintColor: COLOR.PRIMARY,
             tabBarInactiveTintColor: "gray",
             tabBarIcon: ({focused, color, size}) => {
                 if(route.name === 'Customers'){
@@ -32,7 +33,7 @@ const TabNavigator = () => {
                         <Icon
                             name='users'
                             type='entypo'
-                            color={focused ? "#59C1CC" : "gray"}
+                            color={focused ? COLOR.PRIMARY : "gray"}
                             />
                     );
                 }else if(route.name === 'Orders') {
@@ -40,7 +41,7 @@ const TabNavigator = () => {
                         <Icon
                             name='box'
                             type='entypo'
-                            color={focused ? "#EB6A7C" : "gray"}
+                            color={focused ? COLOR.SECONDARY : "gray"}
                         />
                     );
                 }

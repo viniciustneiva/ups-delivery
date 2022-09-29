@@ -9,6 +9,7 @@ import {RootStackParamList} from "../navigator/RootNavigator";
 import useOrders from "../hooks/useOrders";
 import {Button, Image} from "@rneui/themed";
 import OrderCard from "../components/OrderCard";
+import COLOR from "../util/colors";
 
 export type OrdersScreenNavigationProp = CompositeNavigationProp<
     BottomTabNavigationProp<TabStackParamList, "Orders">,
@@ -25,12 +26,12 @@ const OrdersScreen = () => {
         navigation.setOptions({
             headerShown: false,
             tabBarLabel: ({focused, color}) => (
-                <Text style={{ color:focused ? '#EB6A7C' : color, fontSize: 10}}>Orders</Text>
+                <Text style={{ color:focused ? COLOR.SECONDARY : color, fontSize: 10}}>Orders</Text>
             )
         })
     })
     return (
-        <ScrollView style={{backgroundColor: "#EB6A7C"}}>
+        <ScrollView style={{backgroundColor: COLOR.SECONDARY}}>
            <Image
             source={{uri: 'https://links.papareact.com/m51'}}
             containerStyle={tailwind('w-full h-64')}
