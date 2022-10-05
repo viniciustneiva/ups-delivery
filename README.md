@@ -79,13 +79,13 @@ Done!
 ## 📷 &nbsp; Screenshots
 
 <div style="display:flex;flex-direction: column;">
-    <div style="display:flex;justify-content:space-evenly;margin-bottom: 20px;">
-        <img src="screenshots/customers_screen.png" alt="Customers Screen" width="50%"/>
-        <img src="screenshots/customer_details.png" alt="Customer Details Screen" width="50%"/>
+    <div style="display:flex;justify-content:space-evenly;margin-bottom: 20px;align-items: center;">
+        <img src="screenshots/customers_screen.png" alt="Customers Screen" width="49%"/>
+        <img src="screenshots/customer_details.png" alt="Customer Details Screen" width="49%"/>
     </div>
-    <div style="display:flex;justify-content:space-evenly;">
-        <img src="screenshots/orders_screen.png" alt="Orders Screen" width="50%"/>
-        <img src="screenshots/order_details.png" alt="Order Details Screen" width="50%"/>
+    <div style="display:flex;justify-content:space-evenly;align-items: center;">
+        <img src="screenshots/orders_screen.png" alt="Orders Screen" width="49%"/>
+        <img src="screenshots/order_details.png" alt="Order Details Screen" width="49%"/>
     </div>
 </div>
 
