@@ -10,6 +10,7 @@ type Props = {
 };
 
 const DeliveryCard = ({order, fullWidth}: Props) => {
+
     const tailwind = useTailwind();
     return (
         <Card containerStyle={[
@@ -68,8 +69,7 @@ const DeliveryCard = ({order, fullWidth}: Props) => {
                     longitude: order.Lng,
                     latitudeDelta: 0.005,
                     longitudeDelta: 0.005
-                }}
-                         style={[tailwind('w-full'),{flexGrow: 1}, !fullWidth && {height: 200}]}
+                }} style={[tailwind('w-full'),{flexGrow: 1}, !fullWidth && {height: 200}]}
                 >
                     {order.Lat && order.Lng && (
                         <Marker coordinate={{

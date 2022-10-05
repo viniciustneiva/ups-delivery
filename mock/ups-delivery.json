@@ -1,0 +1,175 @@
+{
+  "customers": {
+    "-N6rOmxa7vOOTpZZSllL": {
+      "email": "lucas.bill@example.com",
+      "name": "Lucas Bill"
+    },
+    "-N6rQgCkbLPB1xElUchT": {
+      "email": "mandy.jones@example.com",
+      "name": "Mandy Jones"
+    },
+    "-N6rSJ4xI3_Cq7u58Wh_": {
+      "email": "salim.ali@example.com",
+      "name": "Salim Ali"
+    },
+    "-N6rSZB4AoMAwrDnm2jF": {
+      "email": "jane.xiu@example.com",
+      "name": "Jane Xiu"
+    },
+    "-N6rTRzW_JrkHQMdt5QA": {
+      "email": "john.doe@example.com",
+      "name": "John Doe"
+    }
+  },
+  "orders": {
+    "-N6rOvLXK2t39x-Bp0UP": {
+      "Address": "123 Main St",
+      "City": "San Francisco",
+      "Lat": 37.7749295,
+      "Lng": -122.4194155,
+      "carrier": "ups",
+      "createdAt": "2022-08-04",
+      "shippingCost": 2,
+      "trackingId": "1Z881F5V0397269080"
+    },
+    "-N6rQ_YDMNTjq_mCbhZN": {
+      "Address": "39 Long Beach",
+      "City": "Los Angeles",
+      "Lat": 33.769327,
+      "Lng": -118.192395,
+      "carrier": "ups",
+      "createdAt": "2022-08-01",
+      "shippingCost": 1,
+      "trackingId": "1Z4V180W0324616505"
+    },
+    "-N6rQsEqX4vt-0cBA336": {
+      "Address": "Union Square",
+      "City": "San Fracisco",
+      "Lat": 37.78608,
+      "Lng": -122.41171,
+      "carrier": "ups",
+      "createdAt": "2022-08-04",
+      "shippingCost": 3,
+      "trackingId": "1ZCL1F5V0397269023"
+    },
+    "-N6rQvnBSkz2kglMvr5H": {
+      "Address": "Santa Clara",
+      "City": "San Jose",
+      "Lat": 37.350755,
+      "Lng": -121.95648,
+      "carrier": "ups",
+      "createdAt": "2022-08-01",
+      "shippingCost": 2,
+      "trackingId": "1ZS31F5V039722343"
+    },
+    "-N6rSQz62DlXFPbd32CD": {
+      "Address": "Brooklyn",
+      "City": "New York",
+      "Lat": 40.671505,
+      "Lng": -73.941563,
+      "carrier": "ups",
+      "createdAt": "2022-08-01",
+      "shippingCost": 3,
+      "trackingId": "1ZS31F5V0397294994"
+    }
+  },
+  "trackingItems": {
+    "1Z4V180W0324616505": {
+      "customer_id": "-N6rOmxa7vOOTpZZSllL",
+      "items": [
+        {
+          "item_id": "2903483",
+          "name": "iPad Pro 512gb",
+          "price": "1499.00",
+          "quantity": 1
+        },
+        {
+          "item_id": "2903434",
+          "name": "iPad Pro 1Tb",
+          "price": "1799.00",
+          "quantity": 1
+        },
+        {
+          "item_id": "2943892",
+          "name": "Screen Protector",
+          "price": "10.00",
+          "quantity": 1
+        }
+      ]
+    },
+    "1Z881F5V0397269080": {
+      "customer_id": "-N6rOmxa7vOOTpZZSllL",
+      "items": [
+        {
+          "item_id": "2943892",
+          "name": "Screen Protector",
+          "price": "10.00",
+          "quantity": 1
+        },
+        {
+          "item_id": "2342342",
+          "name": "Evian Water bottle",
+          "price": "50.00",
+          "quantity": 5
+        }
+      ]
+    },
+    "1ZCL1F5V0397269023": {
+      "customer_id": "-N6rQgCkbLPB1xElUchT",
+      "items": [
+        {
+          "item_id": "3249082",
+          "name": "iPhone 13 Pro Max",
+          "price": "3200.00",
+          "quantity": 3
+        },
+        {
+          "item_id": "2943892",
+          "name": "Screen Protector",
+          "price": "30.00",
+          "quantity": 3
+        }
+      ]
+    },
+    "1ZS31F5V039722343": {
+      "customer_id": "-N6rSJ4xI3_Cq7u58Wh_",
+      "items": [
+        {
+          "item_id": "2349082",
+          "name": "Xbox One S",
+          "price": "560.00",
+          "quantity": 1
+        },
+        {
+          "item_id": "2349084",
+          "name": "Xbox One X",
+          "price": "970.00",
+          "quantity": 2
+        },
+        {
+          "item_id": "2349081",
+          "name": "Xbox One S Controllers",
+          "price": "149.99",
+          "quantity": 2
+        }
+      ]
+    },
+    "1ZS31F5V0397294994": {
+      "customer_id": "-N6rSZB4AoMAwrDnm2jF",
+      "items": [
+        {
+          "item_id": "233949",
+          "name": "83 Inch LG OLED TV",
+          "price": "2599.00",
+          "quantity": 1
+        },
+        {
+          "item_id": "439033",
+          "name": "Smart TV Controller",
+          "price": "149.99",
+          "quantity": 1
+        }
+      ]
+    }
+  }
+}
