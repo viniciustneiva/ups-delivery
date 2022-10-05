@@ -24,7 +24,6 @@ List all items of some order and from who it is.
 
 ## 🚀 &nbsp; How to use
 
-
 ### ✨ &nbsp; Kickstart
 
 Clone the project and go to the root folder.
