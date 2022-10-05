@@ -3,7 +3,6 @@
 
 <h1 align="center">
     <p style="color:#f0f6fc"> UPS Delivery Clone App </p>
-    <hr style="height: 1px"/>
 </h1>
 
 ## 🧪 &nbsp; Techs
@@ -86,12 +85,12 @@ List all items of some order and from who it is.
 
 <div style="display:flex;flex-direction: column;">
     <div style="display:flex;justify-content:space-evenly;margin-bottom: 20px;">
-        <img src="screenshots/customers_screen.png" alt="Customers Screen" width="40%"/>
-        <img src="screenshots/customer_details.png" alt="Customer Details Screen" width="40%"/>
+        <img src="screenshots/customers_screen.png" alt="Customers Screen" width="50%"/>
+        <img src="screenshots/customer_details.png" alt="Customer Details Screen" width="50%"/>
     </div>
     <div style="display:flex;justify-content:space-evenly;">
-        <img src="screenshots/orders_screen.png" alt="Orders Screen" width="40%"/>
-        <img src="screenshots/order_details.png" alt="Order Details Screen" width="40%"/>
+        <img src="screenshots/orders_screen.png" alt="Orders Screen" width="50%"/>
+        <img src="screenshots/order_details.png" alt="Order Details Screen" width="50%"/>
     </div>
 </div>
 
