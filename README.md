@@ -1,9 +1,4 @@
-<br />
-<p align="center">
-
-<h1 align="center">
-    <p style="color:#f0f6fc"> UPS Delivery Clone App </p>
-</h1>
+# UPS Delivery Clone App
 
 ## 🧪 &nbsp; Techs
 
@@ -17,6 +12,15 @@ This project was developed with these technologies:
 - [TailwindCSS](https://tailwindcss.com/)
 - [Expo](https://expo.dev/)
 
+
+## 📖 &nbsp; Project
+
+The idea of the project is from this tutorial [video](https://www.youtube.com/watch?v=hvvWv2GLWss), used only for educational purpouse.
+
+The app fetch data from the API which is hosted by Firebase, and all endpoints and data manipulation is managed by Stepzen and the GraphQL queries. The React Native construct the interface and manage the data to make the user interface and manipulate the data from API.
+
+In this you can see the customers who delivered some product, list them, find where the delivery point with the latitude and logitude.
+List all items of some order and from who it is.
 
 ## 🚀 &nbsp; How to use
 
@@ -71,15 +75,6 @@ $ i
 ```
 
 Done!
-
-## &nbsp; Project
-
-The idea of the project is from this tutorial [video](https://www.youtube.com/watch?v=hvvWv2GLWss), used only for educational purpouse.
-
-The app fetch data from the API which is hosted by Firebase, and all endpoints and data manipulation is managed by Stepzen and the GraphQL queries. The React Native construct the interface and manage the data to make the user interface and manipulate the data from API.
-
-In this you can see the customers who delivered some product, list them, find where the delivery point with the latitude and logitude.
-List all items of some order and from who it is.
 
 ## 📷 &nbsp; Screenshots
 
