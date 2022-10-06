@@ -15,7 +15,7 @@ This project was developed with these technologies:
 
 ## 📖 &nbsp; Project
 
-The idea of the project is from this tutorial [video](https://www.youtube.com/watch?v=hvvWv2GLWss), used only for educational purpouse.
+The idea of the project is from [this tutorial video](https://www.youtube.com/watch?v=hvvWv2GLWss), used only for educational purpouse.
 
 The app fetch data from the API which is hosted by Firebase, and all endpoints and data manipulation is managed by Stepzen and the GraphQL queries. The React Native construct the interface and manage the data to make the user interface and manipulate the data from API.
 
